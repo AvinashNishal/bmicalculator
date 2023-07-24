@@ -1,78 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #28282B;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #28282B;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+  height: 100vh;
+}
   
 .container {
-    max-width: 450px;
-    background-color: #16161D;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  }
+  margin-top: 12vh;
+  max-width: 450px;
+  background-color: #16161D;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
   
 h1 {
-    text-align: center;
-    color: #ccc;
-  }
+  text-align: center;
+  color: #ccc;
+}
   
 .input-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
   
 label {
-    flex: 1;
-    font-weight: bold;
-    color: #ccc;
-    padding-right: min(10px);
-  }
+  flex: 1;
+  font-weight: bold;
+  color: #ccc;
+  padding-right: min(10px);
+}
   
 input {
-    flex: 2;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+  flex: 2;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
   
 button {
-    display: block;
-    width: 100%;
-    background-color:#282C35;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-  }
+  display: block;
+  width: 100%;
+  background-color:#282C35;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
   
 .rslt {
-    text-align: center;
-    margin-top: 20px;
-    color: #ccc;
-  }
+  text-align: center;
+  margin-top: 20px;
+  color: #ccc;
+}
   
 #bmi {
     font-size: 24px;
     font-weight: bold;
-  }
+}
   
 #bmi-grp {
     font-weight: bold;
-  }
+}
   
 @media (max-width: 480px) {
     .container {
       max-width: 300px;
-    }
   }
+}
   
