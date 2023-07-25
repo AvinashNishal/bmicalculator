@@ -10,6 +10,7 @@ function calculateBMI() {
   const weight = parseFloat(weightInput.value);
 
   const yr = String('You are')
+  const yh = String('You have a')
 
   if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) {
     alert('Please enter valid height and weight values.');
@@ -22,7 +23,7 @@ function calculateBMI() {
   if (bmi < 18.5) {
     bmiCategory.textContent = yr + ' Underweight';
   } else if (bmi >= 18.5 && bmi < 24.9) {
-    bmiCategory.textContent = yr + ' Normal weight';
+    bmiCategory.textContent = yh + ' Normal weight';
   } else if (bmi >= 25 && bmi < 29.9) {
     bmiCategory.textContent = yr + ' Overweight';
   } else {
